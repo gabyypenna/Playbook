@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Leitura | Playbook</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+
+<body class="reader-body">
+
+
+<header class="reader-header">
+
+    <a href="livros.html" class="logo">
+        PLAYBOOK
+    </a>
+
+    <div class="reader-time">
+
+        <span>
+            Tempo de leitura
+        </span>
+
+        <strong id="readerTimer">
+            00:00:00
+        </strong>
+
+    </div>
+
+    <div>
+
+        <span>
+            Tempo conquistado
+        </span>
+
+        <strong id="readerGameTime">
+            00:00:00
+        </strong>
+
+    </div>
+
+</header>
+
+
+<main class="reader">
+
+    <div class="reader-title">
+
+        <p class="section-label">
+            LEITURA EM ANDAMENTO
+        </p>
+
+        <h1>
+            Sua leitura
+        </h1>
+
+        <p>
+            Dedique seu tempo à leitura.
+            O Playbook cuidará da conversão.
+        </p>
+
+    </div>
+
+
+    <iframe
+        id="pdfViewer"
+        class="pdf-viewer"
+        src="livros/livro-1.pdf">
+    </iframe>
+
+
+    <div class="reader-message">
+
+        <strong>
+            Continue lendo.
+        </strong>
+
+        <p>
+            A cada 15 minutos de leitura,
+            você conquista 10 minutos para jogar.
+        </p>
+
+    </div>
+
+</main>
+
+
+<script src="/JS/leitor.js"></script>
+
+</body>
+
+</html>

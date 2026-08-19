@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Entrar | Playbook</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+
+<body class="auth-body">
+
+
+<main class="auth-container">
+
+    <div class="auth-card">
+
+        <a href="index.html" class="logo">
+            PLAYBOOK
+        </a>
+
+        <h1>
+            Entrar
+        </h1>
+
+        <p>
+            Acesse sua conta para acompanhar
+            seu progresso.
+        </p>
+
+
+        <form id="loginForm">
+
+            <label for="loginEmail">
+                E-mail
+            </label>
+
+            <input
+                type="email"
+                id="loginEmail"
+                required
+            >
+
+
+            <label for="loginPassword">
+                Senha
+            </label>
+
+            <input
+                type="password"
+                id="loginPassword"
+                required
+            >
+
+
+            <button
+                type="submit"
+                class="button primary full">
+
+                Entrar
+
+            </button>
+
+        </form>
+
+
+        <p id="loginMessage" class="form-message"></p>
+
+
+        <div class="auth-link">
+
+            Ainda não possui uma conta?
+
+            <a href="cadastro.html">
+                Criar conta
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="js/auth.js"></script>
+
+</body>
+
+</html>

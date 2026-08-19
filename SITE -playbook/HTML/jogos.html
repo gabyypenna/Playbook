@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Jogos | Playbook</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        PLAYBOOK
+    </a>
+
+    <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="historia.html">Nossa História</a>
+        <a href="como-funciona.html">Como Funciona</a>
+        <a href="livros.html">Livros</a>
+        <a href="jogos.html">Jogos</a>
+    </nav>
+
+    <div class="user-area">
+
+        <div class="time-panel">
+
+            <span>
+                Leitura
+            </span>
+
+            <strong id="readingTime">
+                00:00:00
+            </strong>
+
+            <span>
+                Jogos
+            </span>
+
+            <strong id="gameTime">
+                00:00:00
+            </strong>
+
+        </div>
+
+        <a href="login.html" class="login-button">
+            Entrar
+        </a>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <p class="section-label">
+        TEMPO CONQUISTADO
+    </p>
+
+    <h1>
+        Jogos
+    </h1>
+
+    <p>
+        Utilize o tempo que você conquistou através da leitura.
+    </p>
+
+</section>
+
+
+<section class="game-balance">
+
+    <p>
+        Você possui
+    </p>
+
+    <strong id="availableGameTime">
+        00:00:00
+    </strong>
+
+    <span>
+        disponíveis para jogar.
+    </span>
+
+</section>
+
+
+<section class="games-grid">
+
+
+    <article class="game-card">
+
+        <div class="game-number">
+            01
+        </div>
+
+        <h2>
+            Jogo disponível
+        </h2>
+
+        <p>
+            Espaço reservado para um jogo integrado
+            ao Playbook.
+        </p>
+
+        <button
+            class="button primary"
+            onclick="startGame()">
+
+            Jogar
+
+        </button>
+
+    </article>
+
+
+    <article class="game-card">
+
+        <div class="game-number">
+            02
+        </div>
+
+        <h2>
+            Próximo jogo
+        </h2>
+
+        <p>
+            Novos jogos poderão ser adicionados
+            futuramente.
+        </p>
+
+        <button
+            class="button disabled"
+            disabled>
+
+            Em breve
+
+        </button>
+
+    </article>
+
+
+    <article class="game-card">
+
+        <div class="game-number">
+            03
+        </div>
+
+        <h2>
+            Próximo jogo
+        </h2>
+
+        <p>
+            Mais opções de entretenimento
+            estarão disponíveis em breve.
+        </p>
+
+        <button
+            class="button disabled"
+            disabled>
+
+            Em breve
+
+        </button>
+
+    </article>
+
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        PLAYBOOK
+    </div>
+
+    <p>
+        Leia. Conquiste. Jogue.
+    </p>
+
+</footer>
+
+
+<script src="/JS/app.js"></script>
+
+</body>
+
+</html>

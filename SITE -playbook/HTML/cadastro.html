@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Criar conta | Playbook</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+
+<body class="auth-body">
+
+
+
+<main class="auth-container">
+
+    <div class="auth-card">
+
+        <a href="index.html" class="logo">
+            PLAYBOOK
+        </a>
+
+        <h1>
+            Criar conta
+        </h1>
+
+        <p>
+            Comece sua jornada no Playbook.
+        </p>
+
+
+        <form id="registerForm">
+
+            <label for="registerName">
+                Nome
+            </label>
+
+            <input
+                type="text"
+                id="registerName"
+                required
+            >
+
+
+            <label for="registerEmail">
+                E-mail
+            </label>
+
+            <input
+                type="email"
+                id="registerEmail"
+                required
+            >
+
+
+            <label for="registerPassword">
+                Senha
+            </label>
+
+            <input
+                type="password"
+                id="registerPassword"
+                minlength="6"
+                required
+            >
+
+
+            <button
+                type="submit"
+                class="button primary full">
+
+                Criar conta
+
+            </button>
+
+        </form>
+
+
+        <p id="registerMessage" class="form-message"></p>
+
+
+        <div class="auth-link">
+
+            Já possui uma conta?
+
+            <a href="login.html">
+                Entrar
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="js/auth.js"></script>
+
+</body>
+
+</html>
